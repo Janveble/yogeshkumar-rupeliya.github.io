@@ -32,11 +32,18 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
+  // microsoftteams: "https://teams.live.com/meet/9316771801342?p=oBHSBp3HkR1WdeYDeT",
   // github: "https://github.com/Janveble",
   // linkedin: "https://www.linkedin.com/in/yogesh-rupeliya/",
   // gmail: "yogeshrupeliya@gmail.com",
   // instagram: "https://www.instagram.com/yogi.rj006/"
 
+  {
+    name: "Microsoft Teams",
+    link: "https://teams.live.com/meet/9316771801342?p=oBHSBp3HkR1WdeYDeT",
+    fontAwesomeIcon: "fa-microsoft", // FontAwesome icon for Microsoft Teams
+    backgroundColor: "#6264A7", // Reference from Microsoft Teams brand color
+  },
   {
     name: "Github",
     link: "https://github.com/Janveble",
@@ -303,59 +310,6 @@ const skills = {
 };
 
 // Education Page
-const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
-  ],
-};
-
 const degrees = {
   degrees: [
     {
