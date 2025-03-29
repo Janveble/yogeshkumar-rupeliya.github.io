@@ -7,23 +7,23 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Yogeshkumar's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end to end products.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Yogeshkumar Rupeliya Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://yogeshkumar-rupeliya.github.io/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Yogeshkumar Rupeliya",
+  logo_name: "YogeahkumarRupeliya",
+  nickname: "Yogi",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end to end products.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
