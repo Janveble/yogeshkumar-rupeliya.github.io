@@ -2,7 +2,7 @@
   "private": true,
   "name": "yogeshkumar",
   "version": "0.1.0",
-  "homepage": "hhttps://janveble.github.io/yogeshkumar-rupeliya.github.io",
+  "homepage": "https://janveble.github.io/yogeshkumar-rupeliya.github.io",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
