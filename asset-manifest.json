@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/yogeshkumar-rupeliya.github.io/static/css/main.0fce4f71.chunk.css",
-    "main.js": "/yogeshkumar-rupeliya.github.io/static/js/main.e6124b9d.chunk.js",
-    "main.js.map": "/yogeshkumar-rupeliya.github.io/static/js/main.e6124b9d.chunk.js.map",
+    "main.css": "/yogeshkumar-rupeliya.github.io/static/css/main.b78755f6.chunk.css",
+    "main.js": "/yogeshkumar-rupeliya.github.io/static/js/main.4aaee47d.chunk.js",
+    "main.js.map": "/yogeshkumar-rupeliya.github.io/static/js/main.4aaee47d.chunk.js.map",
     "runtime-main.js": "/yogeshkumar-rupeliya.github.io/static/js/runtime-main.8834e71c.js",
     "runtime-main.js.map": "/yogeshkumar-rupeliya.github.io/static/js/runtime-main.8834e71c.js.map",
-    "static/js/2.7312c302.chunk.js": "/yogeshkumar-rupeliya.github.io/static/js/2.7312c302.chunk.js",
-    "static/js/2.7312c302.chunk.js.map": "/yogeshkumar-rupeliya.github.io/static/js/2.7312c302.chunk.js.map",
+    "static/js/2.878a8907.chunk.js": "/yogeshkumar-rupeliya.github.io/static/js/2.878a8907.chunk.js",
+    "static/js/2.878a8907.chunk.js.map": "/yogeshkumar-rupeliya.github.io/static/js/2.878a8907.chunk.js.map",
     "index.html": "/yogeshkumar-rupeliya.github.io/index.html",
-    "precache-manifest.2437214e1b52130462e777d368d73ee7.js": "/yogeshkumar-rupeliya.github.io/precache-manifest.2437214e1b52130462e777d368d73ee7.js",
+    "precache-manifest.26cea5f6d1fd20652c09961f44f3b094.js": "/yogeshkumar-rupeliya.github.io/precache-manifest.26cea5f6d1fd20652c09961f44f3b094.js",
     "service-worker.js": "/yogeshkumar-rupeliya.github.io/service-worker.js",
-    "static/css/main.0fce4f71.chunk.css.map": "/yogeshkumar-rupeliya.github.io/static/css/main.0fce4f71.chunk.css.map",
+    "static/css/main.b78755f6.chunk.css.map": "/yogeshkumar-rupeliya.github.io/static/css/main.b78755f6.chunk.css.map",
     "static/media/index.css": "/yogeshkumar-rupeliya.github.io/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/yogeshkumar-rupeliya.github.io/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/yogeshkumar-rupeliya.github.io/static/media/animated_ashutosh.eaf02c2d.png",
@@ -53,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8834e71c.js",
-    "static/js/2.7312c302.chunk.js",
-    "static/css/main.0fce4f71.chunk.css",
-    "static/js/main.e6124b9d.chunk.js"
+    "static/js/2.878a8907.chunk.js",
+    "static/css/main.b78755f6.chunk.css",
+    "static/js/main.4aaee47d.chunk.js"
   ]
 }
