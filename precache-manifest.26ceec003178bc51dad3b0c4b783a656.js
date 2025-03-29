@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0cddb15d469d31251d78964e3ae11a0",
+    "revision": "7209c6eb2e8798466c483ab454d105ba",
     "url": "/yogeshkumar-rupeliya.github.io/index.html"
   },
   {
-    "revision": "b983fdb9bd819bb26e0b",
+    "revision": "56067300c832a0de9a50",
     "url": "/yogeshkumar-rupeliya.github.io/static/css/main.b78755f6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yogeshkumar-rupeliya.github.io/static/js/2.878a8907.chunk.js"
   },
   {
-    "revision": "b983fdb9bd819bb26e0b",
-    "url": "/yogeshkumar-rupeliya.github.io/static/js/main.4aaee47d.chunk.js"
+    "revision": "56067300c832a0de9a50",
+    "url": "/yogeshkumar-rupeliya.github.io/static/js/main.a51fa98d.chunk.js"
   },
   {
     "revision": "fecc7a66ca924e9b8a93",
