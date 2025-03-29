@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/yogeshkumar-rupeliya.github.io/static/css/main.b78755f6.chunk.css",
-    "main.js": "/yogeshkumar-rupeliya.github.io/static/js/main.a185a3b1.chunk.js",
-    "main.js.map": "/yogeshkumar-rupeliya.github.io/static/js/main.a185a3b1.chunk.js.map",
+    "main.js": "/yogeshkumar-rupeliya.github.io/static/js/main.e2451233.chunk.js",
+    "main.js.map": "/yogeshkumar-rupeliya.github.io/static/js/main.e2451233.chunk.js.map",
     "runtime-main.js": "/yogeshkumar-rupeliya.github.io/static/js/runtime-main.8834e71c.js",
     "runtime-main.js.map": "/yogeshkumar-rupeliya.github.io/static/js/runtime-main.8834e71c.js.map",
     "static/js/2.2a8172fa.chunk.js": "/yogeshkumar-rupeliya.github.io/static/js/2.2a8172fa.chunk.js",
     "static/js/2.2a8172fa.chunk.js.map": "/yogeshkumar-rupeliya.github.io/static/js/2.2a8172fa.chunk.js.map",
     "index.html": "/yogeshkumar-rupeliya.github.io/index.html",
-    "precache-manifest.add231103a19b25b2f6392624b1f5a95.js": "/yogeshkumar-rupeliya.github.io/precache-manifest.add231103a19b25b2f6392624b1f5a95.js",
+    "precache-manifest.6e269a424156cfa832226100856f2bec.js": "/yogeshkumar-rupeliya.github.io/precache-manifest.6e269a424156cfa832226100856f2bec.js",
     "service-worker.js": "/yogeshkumar-rupeliya.github.io/service-worker.js",
     "static/css/main.b78755f6.chunk.css.map": "/yogeshkumar-rupeliya.github.io/static/css/main.b78755f6.chunk.css.map",
     "static/media/About me.png": "/yogeshkumar-rupeliya.github.io/static/media/About me.45bfb6c1.png",
@@ -58,6 +58,6 @@
     "static/js/runtime-main.8834e71c.js",
     "static/js/2.2a8172fa.chunk.js",
     "static/css/main.b78755f6.chunk.css",
-    "static/js/main.a185a3b1.chunk.js"
+    "static/js/main.e2451233.chunk.js"
   ]
 }
