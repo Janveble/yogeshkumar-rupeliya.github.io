@@ -18,7 +18,8 @@
 .heading-img-div {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-top: 5;
 }
 
 .heading-text-div {
@@ -31,13 +32,15 @@
 }
 
 .heading-text {
-  font-size: 56px;
+  font-size: 80px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 180px;
+  margin-bottom: 10px;
 }
+
 
 .heading-sub-text {
   font-size: 30px;

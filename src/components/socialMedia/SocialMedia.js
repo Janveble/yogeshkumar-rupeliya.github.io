@@ -2,6 +2,7 @@ import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 import styled from "styled-components";
+import teamLogo from "../../assets/teams.svg";
 
 const IconWrapper = styled.span`
   i {
@@ -15,7 +16,8 @@ const IconWrapper = styled.span`
 
 export default function socialMedia(props) {
   return (
-    <div className="social-media-div">
+    <div className="social-media-div" style={{ display: 'inline-flex' }}>
+      <img src={teamLogo} style={{ width: '40px', height: '40px',  }} />
       {socialMediaLinks.map((media, i) => {
         return (
           <a

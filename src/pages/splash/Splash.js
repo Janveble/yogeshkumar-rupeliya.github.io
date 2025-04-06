@@ -1,13 +1,26 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect } from "react"; 
 import "./Splash.css";
 import { Redirect } from "react-router-dom";
-import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
 function AnimatedSplash(props) {
+  const text = "Yogeshkumar Rupeliya";
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText((prev) => prev + text[index]);
+        setIndex(index + 1);
+      }, 100); // Adjust typing speed here
+      return () => clearTimeout(timeout);
+    }
+  }, [index, text]);
+
   return (
     <div className="logo_wrapper">
       <div className="screen" style={{ backgroundColor: props.theme.splashBg }}>
-        <LoaderLogo id="logo" theme={props.theme} />
+        <h1 className="name-text">{displayedText}</h1>
       </div>
     </div>
   );
@@ -22,10 +35,10 @@ class Splash extends Component {
   }
 
   componentDidMount() {
-    this.id = setTimeout(() => this.setState({ redirect: true }), 5500);
+    this.id = setTimeout(() => this.setState({ redirect: true }), 3000);
   }
 
-  componentWillMount() {
+  componentWillUnmount() {
     clearTimeout(this.id);
   }
 

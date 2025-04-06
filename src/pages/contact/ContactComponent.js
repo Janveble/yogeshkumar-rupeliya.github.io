@@ -4,16 +4,14 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
+const emailSection = contactPageData.emailSection;
 
 class Contact extends Component {
   render() {
@@ -27,14 +25,11 @@ class Contact extends Component {
               <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="Profile"
                 />
               </div>
               <div className="contact-heading-text-div">
-                <h1
-                  className="contact-heading-text"
-                  style={{ color: theme.text }}
-                >
+                <h1 className="contact-heading-text" style={{ color: theme.text }}>
                   {ContactData["title"]}
                 </h1>
                 <p
@@ -55,81 +50,56 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
+
+          {/* Contact Info Section (Phone, Email, Address) */}
           <Fade bottom duration={1000} distance="40px">
-            <div className="blog-heading-div">
-              <div className="blog-heading-text-div">
-                <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                  {blogSection["title"]}
-                </h1>
-                <p
-                  className="blog-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {blogSection["subtitle"]}
-                </p>
-                <div className="blogsite-btn-div">
-                  <Button
-                    text="Visit My Blogsite"
-                    newTab={true}
-                    href={blogSection.link}
-                    theme={theme}
-                  />
-                </div>
-              </div>
-              <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <BlogsImg theme={theme} />
-              </div>
-            </div>
-          </Fade>
-          <Fade bottom duration={1000} distance="40px">
-            <div className="address-heading-div">
-              <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <AddressImg theme={theme} />
-              </div>
-              <div className="address-heading-text-div">
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {addressSection["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {addressSection["subtitle"]}
-                </p>
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
+            <div className="contact-info-container">
+              
+              {/* Phone Section (Left) */}
+              <div className="contact-info-section phone-section">
+                <h1 className="contact-info-heading" style={{ color: theme.text }}>
                   {phoneSection["title"]}
                 </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
+                <p className="contact-info-detail" style={{ color: theme.secondaryText }}>
                   {phoneSection["subtitle"]}
                 </p>
-                <div className="address-btn-div">
-                  <Button
-                    text="Visit on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
-                </div>
               </div>
+
+              {/* Email Section (Middle) */}
+              <div className="contact-info-section email-section">
+                <h1 className="contact-info-heading" style={{ color: theme.text }}>
+                  {emailSection["title"]}
+                </h1>
+                <p className="contact-info-detail" style={{ color: theme.secondaryText }}>
+                  <a
+                    href={`mailto:${emailSection["email"]}`}
+                    style={{ color: theme.text, textDecoration: "none", fontWeight: "bold" }}
+                  >
+                    {emailSection["email"]}
+                  </a>
+                </p>
+              </div>
+
+              {/* Address Section (Right, Clickable Link) */}
+              <div className="contact-info-section address-section">
+                <h1 className="contact-info-heading" style={{ color: theme.text }}>
+                  {addressSection["title"]}
+                </h1>
+                <p className="contact-info-detail" style={{ color: theme.secondaryText }}>
+                  <a
+                    href={addressSection.location_map_link} // Clickable address
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: theme.text, textDecoration: "none", fontWeight: "bold" }}
+                  >
+                    {addressSection["subtitle"]}
+                  </a>
+                </p>
+              </div>
+
             </div>
           </Fade>
+
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

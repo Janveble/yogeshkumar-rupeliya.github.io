@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import Pdf from '../../assets/YOGESHKUMAR-RUPELIYA-CV.pdf';
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -14,17 +15,17 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
+              <h1 className="greeting-text" style={{ color: "white", position: "relative" }}>
                 {greeting.title}
               </h1>
               {greeting.nickname && (
-                <h2 className="greeting-nickname" style={{ color: theme.text }}>
+                <h2 className="greeting-nickname" style={{ color: "white", position: "relative" }}>
                   ( {greeting.nickname} )
                 </h2>
               )}
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
+                style={{ color: "white", position: "relative" }}
               >
                 {greeting.subTitle}
               </p>
@@ -33,7 +34,7 @@ export default function Greeting(props) {
                 <Button
                   text="My Resume"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href={Pdf}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
@@ -43,13 +44,6 @@ export default function Greeting(props) {
               <Button text="My resume" newTab={true} href={greeting.resumeLink} />
             </div> */}
             </div>
-          </div>
-          <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assets/images/Main page.png")}
-						></img> */}
-            <FeelingProud theme={theme} />
           </div>
         </div>
       </div>

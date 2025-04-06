@@ -27,17 +27,18 @@
 }
 
 .projects-heading-img-div > * {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
+  margin-top: 50px;
 }
 
 .projects-heading-text {
-  font-size: 56px;
+  font-size: 70px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .projects-heading-sub-text {
@@ -53,6 +54,7 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: -20px;
   font-family: "Google Sans Medium";
 }
 .publications-heading-text-div {
